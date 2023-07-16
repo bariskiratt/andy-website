@@ -99,14 +99,14 @@
             var password = document.getElementById('password').value;
 
             if (username === '' || password === '') {
-                alert('Please fill in both fields');
+                alert('2 kutucuğu da doldur yarram');
             }
             else if (username === 'camsi' && password === 'nurco315269') {
                 document.getElementById('login-container').style.display = 'none';
                 document.getElementById('mainSite').style.display = 'flex';
                 playSound('background_sound.mp3');
             } else {
-                alert('Invalid username or password');
+                alert('Yanlış girdin anasını siktiğim');
             }
         }
 
