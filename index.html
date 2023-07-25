@@ -99,14 +99,14 @@
             var password = document.getElementById('password').value;
 
             if (username === '' || password === '') {
-                alert('2 kutucuğu da doldur yarram');
+                alert('2 kutucuğu da doldur');
             }
             else if (username === 'camsi' && password === 'nurco315269') {
                 document.getElementById('login-container').style.display = 'none';
                 document.getElementById('mainSite').style.display = 'flex';
                 playSound('background_sound.mp3');
             } else {
-                alert('Yanlış girdin anasını siktiğim');
+                alert('Yanlış');
             }
         }
 
@@ -128,7 +128,7 @@
 </head>
 <body>
     <div id="login-container" class="login-container">
-        <div class="login-logo">Bakım altında</div>
+        <div class="login-logo">Bakım altında-Gonna be my own site</div>
         <form>
             <input type="text" id="username" class="login-input" placeholder="camsi">
             <input type="password" id="password" class="login-input" placeholder="nurco">
